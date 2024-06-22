@@ -16,6 +16,7 @@
             <div class="serverDetail">
                 <!-- serverDetails -->
                 <div class="detailText"></div>
+                <div class="supprVm"></div>
             </div>
         </div>
         <div class="bottomContainer">
@@ -97,6 +98,11 @@
     width: 100%;
     height: 85%;
     background-color: white;
+}
+.supprVm{
+    width: 100%;
+    height: 15%;
+    background-color: red;
 }
 .bottomContainer{
     display: flex;
