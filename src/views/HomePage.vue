@@ -7,7 +7,9 @@
             <div class="servers">
                 <div class="oneServer"></div>
             </div>
-            <div class="serverDetail"></div>
+            <div class="serverDetail">
+                
+            </div>
         </div>
         
     </div>
