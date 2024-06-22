@@ -5,7 +5,12 @@
             <div class="cateOne">
                 <h2>Data Center: INGANZAMARUMPU</h2> 
             </div>
-            <div class="cateTwo">control buttons</div>
+            <div class="cateTwo">
+                control buttons
+                <img src="../../public/cloud-upload-outline.svg" alt=""
+                    style="position: relative;height: 25px; width: 25px;
+                    top: 8px;">
+            </div>
             <!-- <h2>Data Center: INGANZAMARUMPU</h2> -->
             <!-- <button>Eteindre la Machine</button> -->
         </div>
@@ -70,12 +75,12 @@
 .cateOne{
     width: 75%;
     height: 100%;
-    background-color: yellow;
+    background-color: grey;
 }
 .cateTwo{
     width: 20%;
     height: 100%;
-    background-color: yellow;
+    background-color: grey;
     align-content: center;
 }
 .serContainer{
@@ -98,7 +103,7 @@
 .serverDetail{
     width: 20%;
     height: 70vh;
-    background-color: yellow;
+    background-color: grey;
     /* align-content: center; */
 }
 .detailText{
@@ -117,7 +122,7 @@
     display: flex;
     width: 100%;
     height: 15%;
-    background-color: yellow;
+    background-color: grey;
 }
 .quest{
     width: 20%;
