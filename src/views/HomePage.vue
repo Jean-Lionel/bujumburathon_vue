@@ -14,8 +14,8 @@
                 <div class="oneServer">vm one</div>
             </div>
             <div class="serverDetail">
-                serverDetails
-                
+                <!-- serverDetails -->
+                <div class="detailText"></div>
             </div>
         </div>
         <div class="bottomContainer">
@@ -91,7 +91,12 @@
     width: 20%;
     height: 70vh;
     background-color: yellow;
-    align-content: center;
+    /* align-content: center; */
+}
+.detailText{
+    width: 100%;
+    height: 85%;
+    background-color: white;
 }
 .bottomContainer{
     display: flex;
