@@ -19,7 +19,7 @@
         </div>
         <div class="bottomContainer">
             <div class="quest">
-                Want to create a new VM ?
+                new VM
             </div>
         </div>
         
@@ -95,5 +95,6 @@
     width: 20%;
     height: 100%;
     background-color: white;
+    align-content: center;
 }
 </style>
