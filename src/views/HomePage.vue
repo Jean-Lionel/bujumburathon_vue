@@ -26,8 +26,10 @@
 
 <style scoped>
 .homeContainer{
+    position: relative;
     width: 100vw;
     height: 100vh;
+    margin-top: -60px;
     background-color: red;
     overflow: hidden;
 }
@@ -42,7 +44,7 @@
     height: 100%;
     background-color: red;
     align-content: center;
-    font-size: 60px;
+    font-size: 50px;
 
 }
 .cateOne{
