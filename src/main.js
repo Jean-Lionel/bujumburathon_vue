@@ -1,10 +1,8 @@
 import { createApp } from 'vue'
-// import App from './App.vue'
-import '../src/styles/jove.css'
-import FeuillePage from './Feuille-page.vue'
-import router from "router"
-import store from "store"
+import App from "./App.vue"
+import router from "./route"
 
-createApp(FeuillePage).
-use(router)
+
+createApp(App)
+.use(router)
 .mount('#app')
