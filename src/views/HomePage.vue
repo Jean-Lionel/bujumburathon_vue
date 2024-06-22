@@ -11,10 +11,10 @@
         </div>
         <div class="serContainer">
             <div class="servers">
-                <div class="oneServer"></div>
+                <div class="oneServer">vm one</div>
             </div>
             <div class="serverDetail">
-
+                serverDetails
             </div>
         </div>
         <div class="bottomContainer"></div>
@@ -70,10 +70,17 @@
     height: 70vh;
     background-color: blue;
 }
+.oneServer{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    align-content: center;
+}
 .serverDetail{
     width: 20%;
     height: 70vh;
     background-color: yellow;
+    align-content: center;
 }
 .bottomContainer{
     width: 100%;
