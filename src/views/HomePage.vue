@@ -21,7 +21,12 @@
             <div class="quest">
                 new VM
             </div>
-            <div class="nameVM"></div>
+            <div class="nameVM">
+                <input type="text" placeholder="Nom du VM"
+                    style="padding: 10px; font-size: 20px; margin-right: 20px;">
+                <input type="button" value="Créer"
+                    style="padding: 10px; font-size: 20px; margin-right: 20px;">
+            </div>
         </div>
         
     </div>
@@ -103,5 +108,6 @@
     width: 80%;
     height: 100%;
     border: 1px dashed black;
+    align-content: center;
 }
 </style>
