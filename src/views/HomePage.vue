@@ -9,13 +9,13 @@
                 <!-- control buttons -->
                 <img src="../../public/cloud-upload-outline.svg" alt=""
                     style="position: relative;height: 25px; width: 25px;
-                    top: 8px;">
+                    top: 8px;margin: 0px 25px;">
                 <img src="../../public/play-circle-outline.svg" alt=""
                     style="position: relative;height: 25px; width: 25px;
                     top: 8px;">
                 <img src="../../public/pause-circle-outline.svg" alt=""
                 style="position: relative;height: 25px; width: 25px;
-                top: 8px;">
+                top: 8px;margin: 0px 25px;">
                 <img src="../../public/power-outline.svg" alt=""
                 style="position: relative;height: 25px; width: 25px;
                 top: 8px;">
