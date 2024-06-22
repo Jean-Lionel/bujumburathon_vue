@@ -1,6 +1,6 @@
 <template>
-    <div>
-    <h1>Bonjour le Monde</h1>
+    <div class="homeContainer">
+        <h2>Data Center: INGANZAMARUMPU</h2>
     </div>
 </template>
 
