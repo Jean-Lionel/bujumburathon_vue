@@ -5,7 +5,7 @@
             <div class="cateOne">
                 <h2>Data Center: INGANZAMARUMPU</h2> 
             </div>
-            <div class="cateTwo">4</div>
+            <div class="cateTwo">control buttons</div>
             <!-- <h2>Data Center: INGANZAMARUMPU</h2> -->
             <!-- <button>Eteindre la Machine</button> -->
         </div>
@@ -17,6 +17,7 @@
 
             </div>
         </div>
+        <div class="bottomContainer"></div>
         
     </div>
 </template>
@@ -55,7 +56,8 @@
 .cateTwo{
     width: 20%;
     height: 100%;
-    background-color: blue;
+    background-color: yellow;
+    align-content: center;
 }
 .serContainer{
     display: flex;
@@ -71,6 +73,11 @@
 .serverDetail{
     width: 20%;
     height: 70vh;
+    background-color: yellow;
+}
+.bottomContainer{
+    width: 100%;
+    height: 15%;
     background-color: yellow;
 }
 </style>
