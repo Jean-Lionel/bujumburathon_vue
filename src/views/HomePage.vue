@@ -15,8 +15,12 @@
             </div>
             <div class="serverDetail">
                 <!-- serverDetails -->
-                <div class="detailText"></div>
-                <div class="supprVm"></div>
+                <div class="detailText">
+                    Details du VM
+                </div>
+                <div class="supprVm">
+                    Supprimer ce VM
+                </div>
             </div>
         </div>
         <div class="bottomContainer">
@@ -98,11 +102,13 @@
     width: 100%;
     height: 85%;
     background-color: white;
+    align-content: center;
 }
 .supprVm{
     width: 100%;
     height: 15%;
     background-color: red;
+    align-content: center;
 }
 .bottomContainer{
     display: flex;
