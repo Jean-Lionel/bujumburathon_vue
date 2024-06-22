@@ -139,5 +139,8 @@
     width: 100%;
     height: 5%;
     background-color: white;
+    justify-content: center;
+    align-content: center;
+    font-weight: 600;
 }
 </style>
