@@ -25,7 +25,10 @@
         </div>
         <div class="serContainer">
             <div class="servers">
-                <div class="oneServer">vm one</div>
+                    <nav-bar/>
+                <div class="oneServer">vm one
+                    <input-form/>
+                </div>
             </div>
             <div class="serverDetail">
                 <!-- serverDetails -->
@@ -55,7 +58,14 @@
     </div>
 </template>
 
-<script setup>
+<script >
+import InputForm from '@/components/form/InputForm.vue'
+import NavBar from '@/components/menu/NavBar.vue'
+
+export default{
+  components: { InputForm, NavBar },
+    
+}
 </script>
 
 <style scoped>
@@ -96,7 +106,7 @@
     display: flex;
     width: 100%;
     height: 70%;
-    background-color: rgb(99, 104, 99);
+    background-color: rgb(44, 163, 44);
 }
 .servers{
     width: 80%;
