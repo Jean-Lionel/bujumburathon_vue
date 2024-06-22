@@ -1,7 +1,9 @@
 <template>
     <div class="homeContainer">
         <h2>Data Center: INGANZAMARUMPU</h2>
-        <div class="servers"></div>
+        <div class="servers">
+            <div class="oneServer"></div>
+        </div>
     </div>
 </template>
 
