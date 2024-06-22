@@ -23,4 +23,10 @@
     height: 70vh;
     background-color: blue;
 }
+.serverDetail{
+    display: flex;
+    width: 20vw;
+    height: 70vh;
+    background-color: yellow;
+}
 </style>
