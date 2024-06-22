@@ -15,11 +15,12 @@
             </div>
             <div class="serverDetail">
                 serverDetails
+                
             </div>
         </div>
         <div class="bottomContainer">
             <div class="quest">
-                new VM
+                Nouveau VM
             </div>
             <div class="nameVM">
                 <input type="text" placeholder="Nom du VM"
@@ -101,13 +102,17 @@
 .quest{
     width: 20%;
     height: 100%;
-    background-color: white;
+    /* background-color: white; */
+    text-align: right;
     align-content: center;
+    font-size: 20px;
 }
 .nameVM{
     width: 80%;
     height: 100%;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
+    text-align: left;
     align-content: center;
+    padding-left: 10px;
 }
 </style>
