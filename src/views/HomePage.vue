@@ -1,14 +1,20 @@
 <template>
     <div class="homeContainer">
         <div class="title">
-            <h2>Data Center: INGANZAMARUMPU</h2>
+            <div class="addMach">+</div>
+            <div class="cateOne">
+                <h2>Data Center: INGANZAMARUMPU</h2> 
+            </div>
+            <div class="cateTwo">4</div>
+            <!-- <h2>Data Center: INGANZAMARUMPU</h2> -->
+            <!-- <button>Eteindre la Machine</button> -->
         </div>
         <div class="serContainer">
             <div class="servers">
                 <div class="oneServer"></div>
             </div>
             <div class="serverDetail">
-                
+
             </div>
         </div>
         
@@ -24,6 +30,30 @@
     height: 100vh;
     background-color: red;
     overflow: hidden;
+}
+.title{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    /* background-color: green; */
+}
+.addMach{
+    width: 5vw;
+    height: 100%;
+    background-color: red;
+    align-content: center;
+    font-size: 60px;
+
+}
+.cateOne{
+    width: 75%;
+    height: 100%;
+    background-color: yellow;
+}
+.cateTwo{
+    width: 20%;
+    height: 100%;
+    background-color: blue;
 }
 .serContainer{
     display: flex;
