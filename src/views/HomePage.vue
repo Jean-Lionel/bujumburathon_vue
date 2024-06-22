@@ -17,7 +17,11 @@
                 serverDetails
             </div>
         </div>
-        <div class="bottomContainer"></div>
+        <div class="bottomContainer">
+            <div class="quest">
+                Want to create a new VM ?
+            </div>
+        </div>
         
     </div>
 </template>
@@ -86,5 +90,10 @@
     width: 100%;
     height: 15%;
     background-color: yellow;
+}
+.quest{
+    width: 20%;
+    height: 100%;
+    background-color: white;
 }
 </style>
