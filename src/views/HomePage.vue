@@ -21,6 +21,7 @@
             <div class="quest">
                 new VM
             </div>
+            <div class="nameVM"></div>
         </div>
         
     </div>
@@ -87,6 +88,7 @@
     align-content: center;
 }
 .bottomContainer{
+    display: flex;
     width: 100%;
     height: 15%;
     background-color: yellow;
@@ -96,5 +98,10 @@
     height: 100%;
     background-color: white;
     align-content: center;
+}
+.nameVM{
+    width: 80%;
+    height: 100%;
+    border: 1px dashed black;
 }
 </style>
