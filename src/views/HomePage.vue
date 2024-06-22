@@ -34,7 +34,9 @@
                     style="padding: 10px; font-size: 20px; margin-right: 20px;">
             </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+            NDUWIMANA, NKURUNZIZA, HAVYARIMANA, NININAHAZWE, NSANZUMUKIZA
+        </div>
         
     </div>
 </template>
