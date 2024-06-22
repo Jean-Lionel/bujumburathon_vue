@@ -1,10 +1,15 @@
 <template>
     <div class="homeContainer">
-        <h2>Data Center: INGANZAMARUMPU</h2>
-        <div class="servers">
-            <div class="oneServer"></div>
+        <div class="title">
+            <h2>Data Center: INGANZAMARUMPU</h2>
         </div>
-        <div class="serverDetail"></div>
+        <div class="serContainer">
+            <div class="servers">
+                <div class="oneServer"></div>
+            </div>
+            <div class="serverDetail"></div>
+        </div>
+        
     </div>
 </template>
 
@@ -13,19 +18,24 @@
 
 <style scoped>
 .homeContainer{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: red;
+    overflow: hidden;
+}
+.serContainer{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    background-color: green;
 }
 .servers{
-    display: flex;
-    width: 80vw;
+    width: 80%;
     height: 70vh;
     background-color: blue;
 }
 .serverDetail{
-    display: flex;
-    width: 20vw;
+    width: 20%;
     height: 70vh;
     background-color: yellow;
 }
