@@ -91,8 +91,9 @@
 }
 .servers{
     width: 80%;
-    height: 70vh;
-    background-color: blue;
+    height: 66.3vh;
+    background-color: rgba(47, 128, 153, 0.897);
+    padding: 10px;
 }
 .oneServer{
     width: 200px;
