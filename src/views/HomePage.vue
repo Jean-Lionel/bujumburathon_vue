@@ -16,6 +16,9 @@
                 <img src="../../public/pause-circle-outline.svg" alt=""
                 style="position: relative;height: 25px; width: 25px;
                 top: 8px;">
+                <img src="../../public/power-outline.svg" alt=""
+                style="position: relative;height: 25px; width: 25px;
+                top: 8px;">
             </div>
             <!-- <h2>Data Center: INGANZAMARUMPU</h2> -->
             <!-- <button>Eteindre la Machine</button> -->
