@@ -16,7 +16,7 @@
             <div class="serverDetail">
                 <!-- serverDetails -->
                 <div class="detailText">
-                    Details du VM
+                    Détails du VM
                 </div>
                 <div class="supprVm">
                     Supprimer ce VM
@@ -34,6 +34,7 @@
                     style="padding: 10px; font-size: 20px; margin-right: 20px;">
             </div>
         </div>
+        <div class="footer"></div>
         
     </div>
 </template>
@@ -131,5 +132,10 @@
     text-align: left;
     align-content: center;
     padding-left: 10px;
+}
+.footer{
+    width: 100%;
+    height: 5%;
+    background-color: white;
 }
 </style>
