@@ -2,7 +2,7 @@
   <div class="parent">
     <div class="title inline">
       <h4>Utilisation des resources</h4>
-      <More/>
+      <!-- <More/> -->
     </div>
     <div class="chart">
       <Doughnut :data="chart_data" :options="chart_options"/>
@@ -12,7 +12,7 @@
 <script>
 import { Doughnut } from 'vue-chartjs';
 
-import More from "./more"
+// import More from "./more"
 
 export default {
   props:[
