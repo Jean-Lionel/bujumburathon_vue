@@ -125,4 +125,22 @@ export default{
     height: 70vh;
     background-color: rgb(49, 49, 49);
 }
+.bottomContainer{
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+.quest{
+    width: 30%;
+    height: 100%;
+    background-color: red;
+    align-content: center;
+}
+.footer{
+    background-color: rgb(88, 87, 87);
+    width: 100%;
+    height: 5%;
+    align-content: center;
+    color: black;
+}
 </style>
