@@ -133,8 +133,16 @@ export default{
 .quest{
     width: 30%;
     height: 100%;
-    background-color: red;
+    /* background-color: red; */
     align-content: center;
+    text-align: right;
+}
+.nameVM{
+    width: 70%;
+    height: 100%;
+    align-content: center;
+    text-align: left;
+    padding-left: 20px;
 }
 .footer{
     background-color: rgb(88, 87, 87);
