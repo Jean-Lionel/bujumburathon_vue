@@ -14,11 +14,22 @@ import { onMounted } from 'vue';
 // const labels = ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange']
 const data = {
       labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-      datasets: [{
+      datasets: [
+        {
         label: '# of Votes',
         data: [12, 19, 3, 5, 2, 3],
-        borderWidth: 1
-      }]
+        borderWidth: 7,
+        backgroundColor: '#111',
+        borderColor: 'red',
+      },
+      {
+        label: '# of Votes 2',
+        data: [1, 5, 10, 5, 8, 1],
+        borderWidth: 7,
+        backgroundColor: '#1f1',
+        borderColor: 'red',
+      },
+    ]
     }
 const options = {
       scales: {
@@ -38,6 +49,7 @@ onMounted(()=>{
         document.getElementById("myChart"),
         config
     )
+   
 })
 
 </script>
