@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="chartContainer">
         <!-- Hello World. -->
         <canvas id="myChart">
 
@@ -41,3 +41,10 @@ onMounted(()=>{
 })
 
 </script>
+
+<style scoped>
+.chartContainer{
+    width: 50vw;
+    height: 80vh;
+}
+</style>
