@@ -5,7 +5,7 @@ import chart from "../views/ch-art.vue"
 
 const routes = [
   {
-    path: 'home',
+    path: '/home',
     component: HomePage,
   },
   {
