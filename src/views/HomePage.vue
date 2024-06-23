@@ -25,7 +25,10 @@
         </div>
         <div class="serContainer">
             <div class="servers">
-                <div class="oneServer">vm one</div>
+                    <nav-bar/>
+                <div class="oneServer">vm one
+                    <input-form/>
+                </div>
             </div>
             <div class="serverDetail">
                 <!-- serverDetails -->
@@ -55,7 +58,14 @@
     </div>
 </template>
 
-<script setup>
+<script >
+import InputForm from '@/components/form/InputForm.vue'
+import NavBar from '@/components/menu/NavBar.vue'
+
+export default{
+  components: { InputForm, NavBar },
+    
+}
 </script>
 
 <style scoped>
@@ -64,7 +74,7 @@
     width: 100vw;
     height: 100vh;
     margin-top: -60px;
-    background-color: red;
+    background-color: rgb(255, 248, 248);
     overflow: hidden;
 }
 .title{
@@ -96,7 +106,7 @@
     display: flex;
     width: 100%;
     height: 70%;
-    background-color: green;
+    background-color: rgb(44, 163, 44);
 }
 .servers{
     width: 80%;
@@ -113,49 +123,6 @@
 .serverDetail{
     width: 20%;
     height: 70vh;
-    background-color: grey;
-    /* align-content: center; */
-}
-.detailText{
-    width: 100%;
-    height: 85%;
-    background-color: white;
-    align-content: center;
-}
-.supprVm{
-    width: 100%;
-    height: 15%;
-    background-color: red;
-    align-content: center;
-}
-.bottomContainer{
-    display: flex;
-    width: 100%;
-    height: 15%;
-    background-color: grey;
-}
-.quest{
-    width: 20%;
-    height: 100%;
-    /* background-color: white; */
-    text-align: right;
-    align-content: center;
-    font-size: 20px;
-}
-.nameVM{
-    width: 80%;
-    height: 100%;
-    /* border: 1px dashed black; */
-    text-align: left;
-    align-content: center;
-    padding-left: 10px;
-}
-.footer{
-    width: 100%;
-    height: 5%;
-    background-color: white;
-    justify-content: center;
-    align-content: center;
-    font-weight: 600;
+    background-color: rgb(49, 49, 49);
 }
 </style>
