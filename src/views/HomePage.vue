@@ -3,7 +3,7 @@
         <div class="title">
             <div class="addMach">+</div>
             <div class="cateOne">
-                <h2>Data Center: INGANZAMARUMPU</h2> 
+                <h2 style="font-family: Ubuntu;">Data Center: INGANZAMARUMPU</h2> 
             </div>
             <div class="cateTwo">
                 <!-- control buttons -->
@@ -25,9 +25,9 @@
         </div>
         <div class="serContainer">
             <div class="servers">
-                    <nav-bar/>
+                    <!-- <nav-bar/> -->
                 <div class="oneServer">vm one
-                    <input-form/>
+                    <!-- <input-form/> -->
                 </div>
             </div>
             <div class="serverDetail">
@@ -59,13 +59,13 @@
 </template>
 
 <script >
-import InputForm from '@/components/form/InputForm.vue'
-import NavBar from '@/components/menu/NavBar.vue'
+// import InputForm from '@/components/form/InputForm.vue'
+// import NavBar from '@/components/menu/NavBar.vue'
 
-export default{
-  components: { InputForm, NavBar },
+// export default{
+//   components: { InputForm, NavBar },
     
-}
+// }
 </script>
 
 <style scoped>
@@ -150,5 +150,8 @@ export default{
     height: 5%;
     align-content: center;
     color: black;
+    font-family:Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
 }
 </style>
