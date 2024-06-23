@@ -12,25 +12,30 @@ import Chart from 'chart.js/auto';
 import { onMounted } from 'vue';
 
 // const labels = ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange']
+// const data = {
+//       labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+//       datasets: [
+//         {
+//         label: '# of Votes',
+//         data: [12, 9, 3, 5, 2, 3],
+//         borderWidth: 0.8,
+//         backgroundColor: '#1ff',
+//         borderColor: 'red',
+//       },
+//     ]
+//     }
 const data = {
-      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-      datasets: [
-        {
-        label: '# of Votes',
-        data: [12, 19, 3, 5, 2, 3],
-        borderWidth: 7,
-        backgroundColor: '#111',
-        borderColor: 'red',
-      },
-      {
-        label: '# of Votes 2',
-        data: [1, 5, 10, 5, 8, 1],
-        borderWidth: 7,
-        backgroundColor: '#1f1',
-        borderColor: 'red',
-      },
+    datasets: [{
+        data: [10, 20, 30]
+    }],
+
+    // These labels appear in the legend and in the tooltips when hovering different arcs
+    labels: [
+        'Red',
+        'Yellow',
+        'Blue'
     ]
-    }
+};
 const options = {
       scales: {
         y: {
@@ -40,7 +45,7 @@ const options = {
     }
 
 const config = {
-    type: 'line',
+    type: 'doughnut',
     data: data,
     options: options,
 }
